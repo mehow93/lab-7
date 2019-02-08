@@ -7,7 +7,7 @@ void pointersDemo1()
     int x = 1;
     int *p1 = &x;
     int **pp1 = &p1;
-
+// test
     printf("&x = %p, x = %d\n", reinterpret_cast<void*>(&x), x);
     printf("&p1 = %p, p1 = %p\n",
            reinterpret_cast<void*>(&p1),
